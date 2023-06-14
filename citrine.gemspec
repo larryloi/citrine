@@ -22,7 +22,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.required_ruby_version = ">= 2.5.0"
-  spec.add_runtime_dependency "celluloid", ">= 0.17.3"
+  spec.add_runtime_dependency "celluloid", "= 0.17.4"
   spec.add_runtime_dependency "reel", ">= 0.6.1"
   spec.add_runtime_dependency "sequel", ">= 5.8.0"
   spec.add_runtime_dependency "http", "~> 4.0.0"
