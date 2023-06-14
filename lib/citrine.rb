@@ -4,7 +4,6 @@ require "sequel"
 Sequel.extension :inflector
 
 require "celluloid/current"
-require "citrine/version"
 require_relative "citrine/celluloid_ext"
 require_relative "citrine/version"
 require_relative "citrine/error"
